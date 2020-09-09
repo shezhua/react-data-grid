@@ -10,11 +10,13 @@
     "moduleResolution": "node",
     "noImplicitReturns": true,
     "noUnusedLocals": true,
+    "downlevelIteration": true,
     "outDir": "lib",
     "pretty": true,
     "sourceMap": true,
     "strict": true,
-    "target": "es2020",
+    "target": "es5",
+    "module": "CommonJS",
     "types": ["jest"]
   },
   "files": [
